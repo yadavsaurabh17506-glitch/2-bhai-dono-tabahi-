@@ -1,138 +1,197 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Saurabh Yadav Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial;
-            background: #0f172a;
-            color: white;
-            text-align: center;
-        }
+<title>Saurabh Yadav Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        nav {
-            background: #020617;
-            padding: 15px;
-        }
+<style>
 
-        nav a {
-            color: white;
-            margin: 15px;
-            text-decoration: none;
-            font-size: 18px;
-        }
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+}
 
-        header {
-            padding: 80px 20px;
-        }
+nav{
+background:#020617;
+padding:15px;
+text-align:center;
+}
 
-        .profile {
-            margin-top: 20px;
-        }
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
 
-        .profile img {
-            width: 180px;
-            border-radius: 50%;
-            border: 4px solid white;
-        }
+header{
+text-align:center;
+padding:80px 20px;
+}
 
-        section {
-            padding: 60px 20px;
-        }
+.profile img{
+width:180px;
+border-radius:50%;
+border:4px solid white;
+}
 
-        .box {
-            background: #1e293b;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 10px;
-        }
+button{
+background:#22c55e;
+border:none;
+padding:12px 25px;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+}
 
-        footer {
-            background: #020617;
-            padding: 20px;
-        }
-    </style>
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+.skills{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.skill-box{
+background:#1e293b;
+padding:20px;
+width:200px;
+border-radius:10px;
+}
+
+.portfolio{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.project{
+background:#1e293b;
+padding:20px;
+width:250px;
+border-radius:10px;
+}
+
+footer{
+background:#020617;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-size:18px;
+}
+
+</style>
 
 </head>
 
 <body>
 
-    <nav>
+<nav>
 
-        <a href="#">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
 
-    </nav>As
+</nav>
 
-    <header>
+<header>
 
-        <h1>Hello, I am Saurabh Yadav</h1>
+<div class="profile">
+<img src="images/saurabh.jpg">
+</div>
 
-        <div class="profile">
+<h1>Saurabh Yadav</h1>
 
-            <img src="images/saurabh.jpg">
-            <h2>Saurabh Yadav</h2>
-        </div>
+<p>I build professional websites and edit videos.</p>
 
-        <p>I build websites and edit videos.</p>
+<a href="https://wa.me/919519813469">
+<button>Hire Me</button>
+</a>
 
-    </header>
+</header>
 
-    <section id="about">
+<section id="about">
 
-        <h2>About Me</h2>
+<h2>About Me</h2>
 
-        <div class="box">
+<p>
+I am learning web development and video editing.
+I also run a documentary YouTube channel called DocMark95.
+</p>
 
-            <p>
-                I am learning web development and video editing.
-                I also run a YouTube documentary channel called DocMark95.
-            </p>
+</section>
 
-        </div>
+<section id="skills">
 
-    </section>
+<h2>My Skills</h2>
 
-    <section id="skills">
+<div class="skills">
 
-        <h2>My Skills</h2>
+<div class="skill-box">Website Design</div>
+<div class="skill-box">HTML / CSS</div>
+<div class="skill-box">Video Editing</div>
+<div class="skill-box">YouTube Branding</div>
 
-        <div class="box">Website Design</div>
-        <div class="box">HTML Basics</div>
-        <div class="box">Video Editing</div>
+</div>
 
-    </section>
+</section>
 
-    <section id="contact">
+<section id="portfolio">
 
-        <h2>Contact</h2>
+<h2>My Work</h2>
 
-        <div class="box">
+<div class="portfolio">
 
-            <p>Email:</p>
+<div class="project">Business Website</div>
+<div class="project">Portfolio Website</div>
+<div class="project">YouTube Creator Website</div>
 
-            <a href="mailto:saurabhyadav@gmail.com">
-                Send Email
-            </a>
-            <a href="https://wa.me/919519813469">
-                <button>Chat on WhatsApp</button>
-            </a>
-        </div>
+</div>
 
-    </section>
+</section>
 
-    <footer>
+<section id="contact">
 
-        <p>© 2026 Saurabh Yadav</p>
+<h2>Contact Me</h2>
 
-    </footer>
+<p>Email: saurabhyadav@gmail.com</p>
+
+<a href="https://wa.me/919519813469">
+<button>Chat on WhatsApp</button>
+</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 Saurabh Yadav</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919519813469">
+WhatsApp
+</a>
 
 </body>
-
 </html>
